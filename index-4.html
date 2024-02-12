@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sample</title>
+    <style>
+       body {
+            /* Add custom background image */
+            background-image: url('https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg?w=1380&t=st=1707725802~exp=1707726402~hmac=9b18e6048aa176e75ed2dad100d9f97f5018dd6d848907e7ee37a4372b0b0e3a');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            color: white;
+        }
+
+        header {
+            background-color: #e50914;
+            color:white;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #movieDetails {
+            margin: 20px;
+        }
+
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .cast {
+            font-style: italic;
+        }
+
+        .rating {
+            color: #ffd700;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background-color: burlywood;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        img {
+            max-width: 100px;
+            max-height: 150px;
+        }
+    </style>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        Movie House
+    </header>
+    <div id="movieDetails">
+        <div class="title">Top Movies 2024</div>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Title</th>
+                    <th>Cast</th>
+                    <th>Reviews</th>
+                    <th>Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://m.media-amazon.com/images/M/MV5BNGYzNDM0M2QtZDFkNy00OTI2LWIyNjctNjNhNDM5Zjk3NzU2XkEyXkFqcGdeQXVyNjQ3MDg0MTY@._V1_.jpg" alt="Movie Image"></td>
+                    <td><a href="https://www.imdb.com/title/tt0087332/">Ghostbusters</a></td>
+                    <td>Bill MurrayDan, AykroydSigourney, Weaver</td>
+                    <td>Not only is Ghostbusters funny, it manages to include some truly scary scenes. And not just lose-your-popcorn moments like the fridge from Hell, but also scenes of quiet, thoughtful chill, like Egon's retelling of how the possessed apartment building came into being, or Winston recalling the Book of Revelation. Which other film has managed to combine the Marx Brothers with HP Lovecraft?</td>
+                    <td>★★★★☆</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><img src="https://m.media-amazon.com/images/M/MV5BNmQ0ODBhMjUtNDRhOC00MGQzLTk5MTAtZDliODg5NmU5MjZhXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_FMjpg_UX1000_.jpg" alt="Movie Image"></td>
+                    <td><a href="https://www.imdb.com/title/tt0241527/">Harry Potter and the Sorcerer's Stone</a></td>
+                    <td>Daniel Radcliffe, Rupert Grint, Richard Harris</td>
+                    <td>There's nothing like the first in a series, is there? The introduction to the characters, the immersion into the fictional world, the first time you laugh, cry, care, and fear for someone's safety can never be repeated. No matter how many Harry Potter movies they crank out, or if they ever remake them in the future, none will come close to the wonderful first film, Harry Potter and the Sorcerer's Stone.</td>
+                    <td>★★★★☆</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><img src="https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg" alt="Movie Image"></td>
+                    <td><a href="https://www.imdb.com/title/tt10872600/">Spider-Man: No Way Home</a></td>
+                    <td>Chris McKenna, Erik Sommers, Stan Lee</td>
+                    <td>If you thought the Marvel Universe had reached it's climax with Avengers Endgame, then think again, this was superb, and far more entertaining than any other Spiderman movie. Very cleverly done, mixing laughs and tears. If this is the way phase 4 is going to go then bring it on. This is the reason you go to the cinema, wonderful entertainment.</td>
+                    <td>★★★★☆</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
